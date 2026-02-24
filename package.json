@@ -1,0 +1,45 @@
+{
+  "name": "focusflow",
+  "displayName": "FocusFlow",
+  "description": "Local productivity tracker. See how long you actually code each day — no account, no servers, fully private.",
+  "version": "0.1.0",
+  "publisher": "celeteck",
+  "author": {
+    "name": "Celeteck",
+    "url": "https://celeteck.com"
+  },
+  "homepage": "https://celeteck.com",
+  "license": "MIT",
+  "engines": { "vscode": "^1.74.0" },
+  "categories": ["Other"],
+  "keywords": ["productivity", "time tracking", "focus", "pomodoro", "coding stats"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "focusflow.showDashboard",
+        "title": "FocusFlow: Show Dashboard"
+      },
+      {
+        "command": "focusflow.resetToday",
+        "title": "FocusFlow: Reset Today's Data"
+      },
+      {
+        "command": "focusflow.exportData",
+        "title": "FocusFlow: Export All Data as JSON"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.x",
+    "@types/vscode": "^1.74.0",
+    "typescript": "^5.0.0"
+  }
+}

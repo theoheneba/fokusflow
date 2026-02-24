@@ -1,0 +1,8 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md
