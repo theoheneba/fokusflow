@@ -38,7 +38,7 @@ Install from the [VS Code Marketplace](https://marketplace.visualstudio.com) (se
 
 Or install manually:
 ```bash
-git clone https://github.com/your-username/focusflow
+git clone https://github.com/theoheneba/focusflow
 cd focusflow
 npm install
 npm run compile
