@@ -16,7 +16,7 @@ src/
 ## Getting started
 
 ```bash
-git clone https://github.com/your-username/focusflow
+git clone https://github.com/theoheneba/focusflow
 cd focusflow
 npm install
 ```
