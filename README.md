@@ -59,5 +59,5 @@ MIT
 
 ## Built by
 
-Made with ❤️ by [Celeteck](https://celeteck.com)  
+Made with ❤️ by [Celeteck PTY LTD ](https://celeteck.com)  
 Follow the creator on X: [@theoheneba_](https://x.com/theoheneba_)# fokusflow
